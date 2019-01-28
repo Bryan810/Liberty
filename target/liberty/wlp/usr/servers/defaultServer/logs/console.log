@@ -1,0 +1,19 @@
+Lanzando defaultServer (Open Liberty 18.0.0.4/wlp-1.0.23.cl180420181121-0300) en Java HotSpot(TM) 64-Bit Server VM, versión 1.8.0_181-b13 (es_EC)
+[AUDIT   ] CWWKE0001I: El servidor defaultServer se ha lanzado.
+[AUDIT   ] CWWKZ0058I: Supervisando aplicaciones de dropins.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[AUDIT   ] CWWKT0016I: Aplicación web disponible (default_host): http://desktop-uok5ucu:9080/LibertyProject/
+[AUDIT   ] CWWKZ0001I: La aplicación rest se ha iniciado en 2,327 segundos.
+[AUDIT   ] CWWKF0012I: El servidor ha instalado las características siguientes: [servlet-4.0, jsonp-1.1, jaxrsClient-2.1, jaxrs-2.1].
+[AUDIT   ] CWWKF0011I: El servidor defaultServer está preparado para ejecutar un planeta más inteligente.
+[AUDIT   ] CWWKT0017I: Aplicación web eliminada (default_host): http://desktop-uok5ucu:9080/LibertyProject/
+[AUDIT   ] CWWKZ0009I: La aplicación rest se ha detenido correctamente.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[ADVERTENCIA] SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[AUDIT   ] CWWKT0016I: Aplicación web disponible (default_host): http://desktop-uok5ucu:9080/LibertyProject/
+[AUDIT   ] CWWKZ0003I: La aplicación rest se ha actualizado en 2,608 segundos.

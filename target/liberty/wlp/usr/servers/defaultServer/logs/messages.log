@@ -1,0 +1,48 @@
+********************************************************************************
+product = Open Liberty 18.0.0.4 (wlp-1.0.23.cl180420181121-0300)
+wlp.install.dir = C:/Users/Bryan/Documents/DistribuidaLiberty/guide-rest-intro/guide-rest-intro/finish/target/liberty/wlp/
+java.home = C:\Program Files\Java\jdk1.8.0_181\jre
+java.version = 1.8.0_181
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_181-b13)
+os = Windows 10 (10.0; amd64) (es_EC)
+process = 11888@DESKTOP-UOK5UCU
+********************************************************************************
+[27/01/19 20:51:13:815 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: El servidor defaultServer se ha lanzado.
+[27/01/19 20:51:17:315 COT] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: El kernel se ha iniciado después de 4,091 segundos
+[27/01/19 20:51:17:941 COT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: La actualización de características se ha iniciado.
+[27/01/19 20:51:20:342 COT] 00000014 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Supervisando aplicaciones de dropins.
+[27/01/19 20:51:20:373 COT] 00000024 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: El canal TCP defaultHttpEndpoint se ha iniciado y ahora está a la escucha de solicitudes en el host *  (IPv6) puerto 9080.
+[27/01/19 20:51:21:023 COT] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando la aplicación rest.
+[27/01/19 20:51:21:237 COT] 00000020 m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[27/01/19 20:51:21:277 COT] 00000020 m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[27/01/19 20:51:21:830 COT] 00000020 m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[27/01/19 20:51:21:837 COT] 00000020 m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[27/01/19 20:51:23:301 COT] 00000020 com.ibm.ws.session.WASSessionCore                            I SESN8501I: El gestor de sesiones no ha encontrado una ubicación de almacenamiento persistente; los objetos HttpSession se almacenarán en la memoria del servidor de aplicaciones local.
+[27/01/19 20:51:23:330 COT] 00000020 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Cargando módulo web: Liberty Project.
+[27/01/19 20:51:23:337 COT] 00000020 com.ibm.ws.webcontainer                                      I SRVE0250I: El módulo web Liberty Project se ha enlazado con default_host.
+[27/01/19 20:51:23:339 COT] 00000020 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicación web disponible (default_host): http://desktop-uok5ucu:9080/LibertyProject/
+[27/01/19 20:51:23:350 COT] 00000020 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: La aplicación rest se ha iniciado en 2,327 segundos.
+[27/01/19 20:51:23:420 COT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: El servidor ha instalado las características siguientes: [servlet-4.0, jsonp-1.1, jaxrsClient-2.1, jaxrs-2.1].
+[27/01/19 20:51:23:421 COT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: La actualización de características se ha completado en 6,105 segundos.
+[27/01/19 20:51:23:426 COT] 0000001b com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: El servidor defaultServer está preparado para ejecutar un planeta más inteligente.
+[27/01/19 20:51:23:566 COT] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN0176I: Se creará un nuevo contexto de sesión para la clave de aplicación default_host/LibertyProject
+[27/01/19 20:51:23:604 COT] 0000002a com.ibm.ws.util                                              I SESN0172I: El gestor de sesiones está utilizando la implementación de SecureRandom Java por omisión para la generación del ID de sesión.
+[27/01/19 20:51:24:522 COT] 0000002b com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Se ha generado automáticamente un archivo de configuración para un plug-in de servidor web para este servidor en C:\Users\Bryan\Documents\DistribuidaLiberty\guide-rest-intro\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[27/01/19 20:51:44:218 COT] 00000030 g.apache.cxf.cxf.core.3.2:1.0.23.cl180420181121-0300(id=87)] I Setting the server's publish address to be /System/
+[27/01/19 20:51:44:795 COT] 00000030 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [rest] [/LibertyProject] [io.openliberty.guides.rest.SystemApplication]: Inicialización satisfactoria.
+[28/01/19 17:16:02:799 COT] 00006f6c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Aplicación web eliminada (default_host): http://desktop-uok5ucu:9080/LibertyProject/
+[28/01/19 17:16:03:716 COT] 00006f6c com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [rest] [/LibertyProject] [io.openliberty.guides.rest.SystemApplication]: Destrucción satisfactoria.
+[28/01/19 17:16:04:136 COT] 00006f6c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: La aplicación rest se ha detenido correctamente.
+[28/01/19 17:16:04:273 COT] 00006f6c com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Iniciando la aplicación rest.
+[28/01/19 17:16:04:636 COT] 00006f6c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[28/01/19 17:16:04:732 COT] 00006f6c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[28/01/19 17:16:05:124 COT] 00006f6c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-api.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-core/2.2.11/jaxb-core-2.2.11.jar o su padre.
+[28/01/19 17:16:05:164 COT] 00006f6c m.ibm.ws.container.service.app.deploy.ManifestClassPathUtils W SRVE9967W: No se encuentra la classpath de manifiesto jaxb-core.jar en el archivo jar file:/C:/Users/Bryan/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.11/jaxb-impl-2.2.11.jar o su padre.
+[28/01/19 17:16:05:564 COT] 00006f91 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Se ha generado automáticamente un archivo de configuración para un plug-in de servidor web para este servidor en C:\Users\Bryan\Documents\DistribuidaLiberty\guide-rest-intro\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.
+[28/01/19 17:16:06:830 COT] 00006f6c com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Cargando módulo web: Servicio Rest.
+[28/01/19 17:16:06:855 COT] 00006f6c com.ibm.ws.webcontainer                                      I SRVE0250I: El módulo web Servicio Rest se ha enlazado con default_host.
+[28/01/19 17:16:06:855 COT] 00006f6c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Aplicación web disponible (default_host): http://desktop-uok5ucu:9080/LibertyProject/
+[28/01/19 17:16:06:881 COT] 00006f6c com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: La aplicación rest se ha actualizado en 2,608 segundos.
+[28/01/19 17:16:06:922 COT] 00006f76 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Se creará un nuevo contexto de sesión para la clave de aplicación default_host/LibertyProject
+[28/01/19 17:16:06:924 COT] 00006f76 com.ibm.ws.util                                              I SESN0172I: El gestor de sesiones está utilizando la implementación de SecureRandom Java por omisión para la generación del ID de sesión.
+[28/01/19 17:16:07:435 COT] 00006f77 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: Se ha generado automáticamente un archivo de configuración para un plug-in de servidor web para este servidor en C:\Users\Bryan\Documents\DistribuidaLiberty\guide-rest-intro\guide-rest-intro\finish\target\liberty\wlp\usr\servers\defaultServer\logs\state\plugin-cfg.xml.

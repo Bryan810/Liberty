@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+    <dir sourceOnDisk="C:\Users\Bryan\Documents\DistribuidaLiberty\guide-rest-intro\guide-rest-intro\finish\src\main\webapp" targetInArchive="/"/>
+    <dir sourceOnDisk="C:\Users\Bryan\Documents\DistribuidaLiberty\guide-rest-intro\guide-rest-intro\finish\target\classes" targetInArchive="/WEB-INF/classes"/>
+    <file sourceOnDisk="C:\Users\Bryan\.m2\repository\javax\xml\bind\jaxb-api\2.2.11\jaxb-api-2.2.11.jar" targetInArchive="/WEB-INF/lib/jaxb-api-2.2.11.jar"/>
+    <file sourceOnDisk="C:\Users\Bryan\.m2\repository\com\sun\xml\bind\jaxb-core\2.2.11\jaxb-core-2.2.11.jar" targetInArchive="/WEB-INF/lib/jaxb-core-2.2.11.jar"/>
+    <file sourceOnDisk="C:\Users\Bryan\.m2\repository\com\sun\xml\bind\jaxb-impl\2.2.11\jaxb-impl-2.2.11.jar" targetInArchive="/WEB-INF/lib/jaxb-impl-2.2.11.jar"/>
+    <file sourceOnDisk="C:\Users\Bryan\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar" targetInArchive="/WEB-INF/lib/activation-1.1.1.jar"/>
+    <file sourceOnDisk="C:\Users\Bryan\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.2.Final\hibernate-jpa-2.1-api-1.0.2.Final.jar" targetInArchive="/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.2.Final.jar"/>
+    <file sourceOnDisk="C:\Users\Bryan\Documents\DistribuidaLiberty\guide-rest-intro\guide-rest-intro\finish\target\liberty-maven\resources\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF"/>
+</archive>
